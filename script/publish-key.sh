@@ -1,4 +1,6 @@
 #!/bin/bash
+yum -y install expect
+
 sshkey_home="/root/jenkins_sshkey"
 rm -rf $sshkey_home
 mkdir $sshkey_home
