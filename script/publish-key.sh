@@ -30,5 +30,5 @@ expect << EOF
     expect "]#" {send "exit\r"}
     expect eof
 EOF
-done < /root/.ssh/servers.txt
+done < servers.txt
 
